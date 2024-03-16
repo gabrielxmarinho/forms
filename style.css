@@ -29,3 +29,33 @@
     padding: 10px 0;
     width: 100%;
 }
+/* REGISTER FORM */
+.register-form form{
+    width: 500px;
+    margin: auto;
+    border: 1px solid #000;
+}
+.register-form label {
+    display: block;
+}
+.register-form{
+    padding: 50px;
+}
+.input-inline{
+    display: flex;
+}
+.input-inline input{
+    display: none;
+}
+
+.input-inline label {
+    display: block;
+    padding: 10px;
+    background-color: blue;
+    color: #fff;
+    margin: 5px;
+}
+
+.input-inline input:checked + label {
+    background-color: red;
+}
